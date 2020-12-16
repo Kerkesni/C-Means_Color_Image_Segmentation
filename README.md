@@ -68,15 +68,25 @@ optional arguments:
 ### Default arguments
 The default parameters for all the files are :
 ```python
+# Prefix of the Resulting Files
 output_prefix = ""
+# Output Directory
 output_dir = "."
-fuzzifize = 2
+# The Fizzifize
+fuzzifier = 2
+# The Termination Criteria
 termination_criteria = 0.1
+# Scale of the Final Image (We execute the algorithme on an image that has a size equal to 10% of the original image size)
 scale_percent = 10
+# Minimun Histogram Peek Height
 peeks_minimum_height = 20
+# Minimum histogram Peek Width
 peeks_minimum_width = 5
+# Minimum Distance Between the Peeks
 centers_minimum_distance_treshold = 30
+# Store the Results in Images ?
 save = False
+# Plot The Result Data ?
 plot = False
 ```
 ## Results
