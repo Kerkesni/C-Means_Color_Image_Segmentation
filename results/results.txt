@@ -1,19 +1,29 @@
 Params :: image : a.jpg | scale:10% | clusters:3 | image size:96x64 | Fuzzifier:2 | Termination Criteria:0.1 ::
-    RFCM         :   time: 61.94sec  | iterations: 33   | eucliden : 163.84
+    FCM         :   time: 61.94sec  | iterations: 33   | eucliden : 163.84
     OSFCM        :   time: 49.56sec  | iterations: 24   | eucliden : 139.05
     HTFCM        :   time: 93.21sec  | iterations: 33   | eucliden : 200.90
 
 Params :: image : e.jpg | scale:10% | clusters:2 | image size:96x64 | Fuzzifier:2 | Termination Criteria:0.1 ::
-    RFCM         :   time: 19.02sec  | iterations: 09   | eucliden : 205.40
+    FCM         :   time: 19.02sec  | iterations: 09   | eucliden : 205.40
     OSFCM        :   time: 19.07sec  | iterations: 07   | eucliden : 142.25
     HTFCM        :   time: 26.26sec  | iterations: 11   | eucliden : 218.58
 
 Params :: image : f.jpg | scale:10% | clusters:2 | image size:96x64 | Fuzzifier:2 | Termination Criteria:0.1 ::
-    RFCM         :   time: 15.27sec  | iterations: 06   | eucliden : 143.11
+    FCM         :   time: 15.27sec  | iterations: 06   | eucliden : 143.11
     OSFCM        :   time: 16.63sec  | iterations: 08   | eucliden : 101.28
     HTFCM        :   time: 13.08sec  | iterations: 05   | eucliden : 136.62
 
 Params :: image : g.jpg | scale:5% | clusters:3 | image size:259x172 | Fuzzifier:2 | Termination Criteria:0.1 ::
-    RFCM         :   time: 617.65sec  | iterations: 18   | eucliden : 139.97
+    FCM         :   time: 617.65sec  | iterations: 18   | eucliden : 139.97
     OSFCM        :   time: 530.98sec  | iterations: 14   | eucliden : 73.10
     HTFCM        :   time: 567.93sec  | iterations: 15   | eucliden : 97.43
+
+Params :: image : e.jpg | scale:10% | clusters:2 | image size:96x64 | Fuzzifier:2 | Termination Criteria:0.1 ::
+    FCM          :   time: 19.32sec  | iterations: 09   | eucliden : 195.11
+    OSFCM        :   time: 20.19sec  | iterations: 07   | eucliden : 142.25
+    HTFCM        :   time: 23.46sec  | iterations: 11   | eucliden : 218.58
+
+Params :: image : d.jpg | scale:20% | clusters:5 | image size:160x128 | Fuzzifier:2 | Termination Criteria:0.1 ::
+    FCM          :   time: 574.21sec  | iterations: 13   | eucliden : 107.01
+    OSFCM        :   time: 805.58sec  | iterations: 22   | eucliden : 65.10
+    HTFCM        :   time: 692.98sec  | iterations: 16   | eucliden : 67.76
