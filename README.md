@@ -11,7 +11,7 @@ Install The following Libraries :
 
 ## What's Included ?
 - 3 Variations of the Fuzzy C-means algorithm are included in this project and are in 3 different files in the ./variations folder:
-  1. Basic Fuzzy C-Means Color Image Segmentation (file : ./variations/rfcm.py)
+  1. Basic Fuzzy C-Means Color Image Segmentation (file : ./variations/fcm.py)
    
   2. Fuzzy C-Means with Ordering Split initialization  (file : ./variations/osfcm.py)
    
