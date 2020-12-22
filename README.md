@@ -26,7 +26,7 @@ the three variations can be executed directly using a terminal.
 
 The Files also accept arguments. The two required arguments are the image path and the number of clusters (not for htfcm)
 ```
-dev@linux-desktop: python ./rfcm.py 'image.jpg' 3
+dev@linux-desktop: python ./fcm.py 'image.jpg' 3
 dev@linux-desktop: python ./osfcm.py 'image.jpg' 3
 dev@linux-desktop: python ./htfcm.py 'image.jpg'
 ```
@@ -100,7 +100,7 @@ During execution we get the following information:
 
 Example:
 ```
-dev@linux-desktop: python ./rfcm.py 'image.jpg' 3
+dev@linux-desktop: python ./fcm.py 'image.jpg' 3
 ********
 # of Clusters: 3
 fuzzifier: 2
