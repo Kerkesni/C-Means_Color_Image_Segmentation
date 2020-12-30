@@ -1,4 +1,4 @@
-# C-means Color Image Segmentation
+# Fuzzy C-means Color Image Segmentation
 
 ## Prerequisite
 - [Python 3.9](https://www.python.org/downloads/release/python-390/)
@@ -17,9 +17,7 @@ Install The following Libraries :
    
   3. Hybrid automatic Fuzzy C-means with histogram thresholding (file : ./variations/htfcm.py)
    
-- The variations of C-means algorithm are inspired by the articles that can be found in the ./ressources folder.
-
-- Test images are also included in the ./assets folder
+- Test images are included in the ./assets folder
 
 ## How to run ?
 the three variations can be executed directly using a terminal.
@@ -155,3 +153,8 @@ The cluster center point is also shown and has a red color (hard to see sometime
 Here is an example of what we get for 3 cluster :
 
 ![alt text](./results/md_example_plot.svg "Resulting Images")
+
+## References
+- Bezdek, James C., Robert Ehrlich, and William Full. "FCM: The fuzzy c-means clustering algorithm." Computers & Geosciences 10.2-3 (1984): 191-203.
+- Le Capitaine, Hoel, and Carl Frélicot. "A fast fuzzy c-means algorithm for color image segmentation." 2011.
+- Tan, Khang Siang, and Nor Ashidi Mat Isa. "Color image segmentation using histogram thresholding–Fuzzy C-means hybrid approach." Pattern Recognition 44.1 (2011): 1-15.
